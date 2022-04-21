@@ -1,0 +1,117 @@
+@media(max-width:1100px){
+   .card{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .main-menu_list{
+      justify-content: space-evenly;
+  
+   }
+
+   .main-menu_list-link{
+      margin-right: 0;
+   }
+}
+
+@media(max-width:850px){
+   .header-title{
+      font-size: 55px;
+
+   }
+
+   .header-description{
+      margin-bottom: 50px;
+   }
+
+   .header-price{
+      padding: 20px 70px;
+      font-size: 55px;
+   }
+   .main-menu_list{
+      justify-content: space-evenly;
+   }
+
+   .main-menu_list-link{
+      margin-right: 0;
+   }
+   .recipe{
+      padding: 25px 0;
+   }
+   .recipe-titlef{
+      font-size: 30px;
+   }
+   .branch-title{
+      padding: 35px 0;
+      font-size: 30px;
+   }
+   .branch-map{
+      height: 350px;
+   }
+   .main-up{
+      left: 86%;
+   }
+   .footer-list{
+      margin: 30px 0;
+   }
+   .footer-opisaniye{
+      margin: 0;
+   }
+   .footer{
+      padding: 30px 0;
+   }
+}
+
+@media(max-width:780px){
+   .nav-list_link{
+      padding: 30px 15px;
+   }
+   .header-title{
+      font-size: 45px;
+   }
+   .header-price{
+      padding: 20px 60px;
+      font-size: 45px;
+   }
+   .main-catalog{
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .card:nth-of-type(-n + 6){
+      margin-bottom: 20px;
+   }
+   .recipe-title{
+      margin-bottom: 30px;
+   }
+   .recipe-text{
+      line-height: 18px;
+   }
+   .footer-list{
+      justify-content: space-around;
+   }
+   .footer-list-link{
+      margin: 0;
+   }
+}
+
+@media(max-width:630px){
+   .header{
+      padding-top: 10px;
+   }
+   .header-container{
+      flex-direction: column;
+   }
+   .nav-list_link{
+      padding: 10px;
+      margin-top: 10px;
+   }
+   .header-title{
+      text-align: center;
+   }
+   .header-under-title{
+      text-align: center;
+   }
+}
